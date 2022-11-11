@@ -9,13 +9,15 @@ public class Test5 {
         account.bankaAdi="JavaBank";
         account.id = 1;
 
+        account.setBakiye(20); //encapsilation kapsulleme
+
         float sonuc = account.cevirici("TL","EURO",150);
 
         System.out.println("Sonuc TL->EURO :"+sonuc);
 
         account.guncelle(150);
 
-        System.out.println("Son Bakiye :"+account.bakiye);
+        System.out.println("Son Bakiye :"+account.getBakiye());
 
         String hesapBilgisi = account.getHesapBilgisi();
 

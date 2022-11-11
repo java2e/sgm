@@ -10,6 +10,13 @@ public class Test6 {
 
     sub class  <- super class
 
+
+    Kapsülleme , encapsulation
+
+    private protected ve public
+
+    private tanımlı variable
+
      */
     public static void main(String[] args) {
 
@@ -17,5 +24,6 @@ public class Test6 {
 
         Kamyon kamyon = new Kamyon(); // bir tane araba nesnesi arakasında kamyon nesnesi
 
+        kamyon.vitesAt(3);
     }
 }

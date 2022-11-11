@@ -1,3 +1,5 @@
+import java.util.concurrent.RecursiveTask;
+
 public class Account {
 
     public int id;
@@ -12,7 +14,18 @@ public class Account {
 
     public String hesapTipi;
 
-    public float bakiye;
+    private float bakiye;
+
+
+    // getXXX setXXX
+
+    public float getBakiye() {
+        return this.bakiye;
+    }
+
+    public void setBakiye(float bakiye) {
+        this.bakiye = bakiye;
+    }
 
     public Account() {
         this.bakiye = 0.0f;
