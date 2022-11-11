@@ -40,6 +40,40 @@ public class Test6 {
     2. private method tanımı
     3. constructor method mevcut değildir.
 
+    1-exceptions
+    2-JDBC veritabanı
+    3-I/O
+    4-Collections
+
+    -Reflection
+    -Generics
+
+    1-Geniş Örnek Proje
+
+    Exception
+
+    Hatalar yakalama mekanizması
+
+    Exception
+
+    Runtime
+    Error
+
+    try catch
+
+
+    try {
+
+
+    }
+    catch(exception tipi) {
+
+    }
+    finally{
+
+    }
+
+
 
      */
     public static void main(String[] args) {
