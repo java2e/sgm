@@ -1,3 +1,5 @@
+
+
 public class Test6 {
 
     /*
@@ -22,11 +24,17 @@ public class Test6 {
 
 
 
-    polimorfizm =>
+    polimorfizm => Çok bicimlilik
 
     Interface Arayüzler
 
-    interface
+    interface new
+
+    Abstract Class Soyut Sınıflar
+
+    içerisinde bos method abstarct methodlar barındırı
+    bundan direk olarak nesne üretimi yapamazsını new
+    abstract
 
     1. Nesne üretimi yok
     2. private method tanımı
@@ -38,8 +46,17 @@ public class Test6 {
 
         //Araba araba = new Araba(); // bir tane araba nesnesi üretiyor
 
-        Kamyon kamyon = new Kamyon(); // bir tane araba nesnesi arakasında kamyon nesnesi
+        //Kamyon kamyon = new Kamyon(); // bir tane araba nesnesi arakasında kamyon nesnesi
 
-        kamyon.vitesAt(3);
+       // kamyon.vitesAt(3);
+
+        Araba araba = new Araba();
+        araba.vitesAt(5);
+        Araba araba1 = new Kamyon();
+        araba1.vitesAt(5);
+        Araba araba2 = new Taksi();
+        araba2.vitesAt(5);
+
+        // polimorfizm cok bicimlilik
     }
 }

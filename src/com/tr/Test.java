@@ -13,6 +13,8 @@ public class Test {
         personel.formatBilgi("Personel format!");
 
 
+        Kamyon kamyon = new Kamyon();
+        kamyon.bilgiYazdir("Kamyon");
 
     }
 }

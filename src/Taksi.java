@@ -4,7 +4,7 @@ public class Taksi extends Araba {
 
     @Override
     public void vitesAt(int vites) {
-        System.out.println("Araba vites attı!");
+        System.out.println("taksi vites attı!");
     }
 }
 

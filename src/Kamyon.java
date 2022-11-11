@@ -11,3 +11,12 @@ public class Kamyon extends Araba {
         System.out.println("Kamyon vites attı!");
     }
 }
+
+/*
+
+Kamyon bir arabadır!
+Taksi bir arabadır!
+Araba bir taksi olabilir mi
+Araba bir kamyon olabilir mi
+Kamyon bir taksidirxxxx
+ */
