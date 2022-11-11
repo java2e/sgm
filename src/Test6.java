@@ -17,6 +17,22 @@ public class Test6 {
 
     private tanımlı variable
 
+    interface
+    abstract
+
+
+
+    polimorfizm =>
+
+    Interface Arayüzler
+
+    interface
+
+    1. Nesne üretimi yok
+    2. private method tanımı
+    3. constructor method mevcut değildir.
+
+
      */
     public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-public class Manager {
+public class Manager implements Sablon {
 
     public int id;
 
@@ -20,4 +20,8 @@ public class Manager {
         this.position = position;
     }
 
+    @Override
+    public int topla(int sayi1, int sayi2) {
+        return 0;
+    }
 }
