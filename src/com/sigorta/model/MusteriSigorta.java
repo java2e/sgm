@@ -49,4 +49,15 @@ public class MusteriSigorta extends BaseModel{
     public void setUcret(int ucret) {
         this.ucret = ucret;
     }
+
+    @Override
+    public String toString() {
+        return "MusteriSigorta{" +
+                "sigorta=" + sigorta +
+                ", acenta=" + acenta +
+                ", baslangicTarihi=" + baslangicTarihi +
+                ", bitisTarihi=" + bitisTarihi +
+                ", ucret=" + ucret +
+                '}';
+    }
 }

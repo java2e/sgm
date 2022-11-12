@@ -51,4 +51,15 @@ public class Sigorta extends BaseModel{
     public void setSigortaTipleri(List<String> sigortaTipleri) {
         this.sigortaTipleri = sigortaTipleri;
     }
+
+    @Override
+    public String toString() {
+        return "Sigorta{" +
+                "adres='" + adres + '\'' +
+                ", vkn='" + vkn + '\'' +
+                ", telefon='" + telefon + '\'' +
+                ", email='" + email + '\'' +
+                ", sigortaTipleri=" + sigortaTipleri +
+                '}';
+    }
 }

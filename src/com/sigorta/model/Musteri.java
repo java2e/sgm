@@ -40,4 +40,14 @@ public class Musteri extends BaseModel{
     public void setSigortaListesi(List<MusteriSigorta> sigortaListesi) {
         this.sigortaListesi = sigortaListesi;
     }
+
+    @Override
+    public String toString() {
+        return "Musteri{" +
+                "soyadi='" + soyadi + '\'' +
+                ", telefon='" + telefon + '\'' +
+                ", adres='" + adres + '\'' +
+                ", sigortaListesi=" + sigortaListesi +
+                '}';
+    }
 }
