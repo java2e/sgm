@@ -8,7 +8,7 @@ public class Acenta extends BaseModel {
     private String vkn;
     private String telefon;
     private String email;
-    private List<String> sigortaListesi;
+    private List<Sigorta> sigortaListesi;
 
     public String getAdres() {
         return adres;
@@ -42,11 +42,11 @@ public class Acenta extends BaseModel {
         this.email = email;
     }
 
-    public List<String> getSigortaListesi() {
+    public List<Sigorta> getSigortaListesi() {
         return sigortaListesi;
     }
 
-    public void setSigortaListesi(List<String> sigortaListesi) {
+    public void setSigortaListesi(List<Sigorta> sigortaListesi) {
         this.sigortaListesi = sigortaListesi;
     }
 
