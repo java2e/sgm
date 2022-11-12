@@ -2,13 +2,15 @@ package com.sigorta.model;
 
 import java.util.List;
 
-public class Acenta extends BaseModel {
-    //adres,vkn,telefon,email,Sigorta Şirketleri
+public class Sigorta extends BaseModel{
+
+    //,adres,vkn,telefon,email,Sigorta Tipleri
+
     private String adres;
     private String vkn;
     private String telefon;
     private String email;
-    private List<String> sigortaListesi;
+    private List<String> sigortaTipleri;
 
     public String getAdres() {
         return adres;
@@ -42,22 +44,11 @@ public class Acenta extends BaseModel {
         this.email = email;
     }
 
-    public List<String> getSigortaListesi() {
-        return sigortaListesi;
+    public List<String> getSigortaTipleri() {
+        return sigortaTipleri;
     }
 
-    public void setSigortaListesi(List<String> sigortaListesi) {
-        this.sigortaListesi = sigortaListesi;
-    }
-
-    @Override
-    public String toString() {
-        return "Acenta{" +
-                "adres='" + adres + '\'' +
-                ", vkn='" + vkn + '\'' +
-                ", telefon='" + telefon + '\'' +
-                ", email='" + email + '\'' +
-                ", sigortaListesi=" + sigortaListesi +
-                '}';
+    public void setSigortaTipleri(List<String> sigortaTipleri) {
+        this.sigortaTipleri = sigortaTipleri;
     }
 }
