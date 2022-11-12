@@ -30,10 +30,14 @@ public class Test11 {
 
             }
 
+            String insert_sql = "insert into employee(name,surname) values('Test','Developer')";
+            preparedStatement = conn.prepareStatement(insert_sql);
+            preparedStatement.executeUpdate();
+
 
         }
         catch (Exception ex) {
-
+            System.out.println(ex);
         }
 
 
